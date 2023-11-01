@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Layout from '../components/layout';
-import utils from '../styles/utils.module.css';
+import Layout from '../components/Layout';
+import utilStyles from '../styles/utils.module.css';
 
 export default function Custom404() {
 	return (
@@ -8,9 +8,9 @@ export default function Custom404() {
 			<Head>
 				<title>404 - Page Not Found</title>
 			</Head>
-			<div className={utils.container}>
-				<div className={utils.header}>
-					<h1 className={utils.headingXl}>404 - Page Not Found</h1>
+			<div className={utilStyles.container}>
+				<div className={utilStyles.header}>
+					<h1 className={utilStyles.headingXl}>404 - Page Not Found</h1>
 				</div>
 			</div>
 		</Layout>
