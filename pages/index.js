@@ -22,6 +22,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>React &gt; Next.js &gt; Devlink</p>
+        <p>Review apps are natively built into Vercel 🎉</p> 
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
